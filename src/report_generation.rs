@@ -30,7 +30,7 @@ pub fn generate_death_full() {
         }
     }
 
-    img.save(format!("output/report/{}.png", REPORT1_NAME))
+    img.save(format!("output/reports/{}.png", REPORT1_NAME))
         .unwrap();
 }
 
@@ -55,7 +55,7 @@ pub fn generate_death_part() {
             );
         }
     }
-    img.save(format!("output/report/{}.png", REPORT2_NAME))
+    img.save(format!("output/reports/{}.png", REPORT2_NAME))
         .unwrap();
 }
 
